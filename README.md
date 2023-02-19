@@ -34,6 +34,12 @@ The way it is in the code now, the layout is not erased/replaced, after flashing
 the firmware, one shot features became available in Chrysalis and added one shot
 mods I needed.
 
+## How it works
+
+The firmware itself seems to be (I do not remember where exactly I got the `20221217202716` file from)  from here - https://github.com/keyboardio/Kaleidoscope/tree/master/examples/Devices/Keyboardio/Model01.
+
+This is only a "main" file, the Kaleidoscope code is added in Arduino via [settings](https://kaleidoscope.readthedocs.io/en/latest/setup_toolchain.html#add-keyboard-support-to-arduino). We add a "package" [link](https://raw.githubusercontent.com/keyboardio/boardsmanager/master/package_keyboardio_index.json) for Arduino so it knows where to fetch sources from.
+
 
 
 
